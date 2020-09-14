@@ -22,7 +22,7 @@ namespace cotacoesDollar
             /*==== > O site fornece somente o valor atual de cotação e não o histórico para captura via htmlAgility ou regex, portanto será realizado o seguinte procedimento:
             1 - A Cotação do Dolar será recuperada do site valor.globo.com sempre que a cotação mudar, ou não existir registro anterior feito pelo programa.
             2 - O valor é armazenado usando uma classe como tipo, e o registro é armazenado em um bd caso nao exista ou seja diferente (valor da cotação) este bd será um arquivo txt (formato json)
-            3 - Será Printado na Console os valores solicitados nos requisitos, a tela atualizará a cada 60 segundos e verifica se os dados da nova requisição diferen dos já armazenados, se não, não armazena
+            3 - Sera Printado na Console os valores solicitados nos requisitos, a tela atualizará a cada 60 segundos e verifica se os dados da nova requisição diferen dos já armazenados, se não, não armazena
             */
 
             //validacao do arquivo de base de dados em json
